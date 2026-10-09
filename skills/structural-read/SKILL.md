@@ -1,6 +1,6 @@
 ---
 name: structural-read
-description: Read a Tabularia Manuscript against the shape it was built on — the story structure's own part notes — and report where the writing does not yet do what each part is for. Use when the Writer asks about structure, pacing, act breaks, a saggy middle, whether a beat lands, or asks for a developmental read.
+description: Read a Tabularia Manuscript against the shape it was built on — the story structure's own part notes — and report where the writing does not yet do what each part is for. Use when the Writer asks about structure, pacing, act breaks, a middle that drags, an opening that does not hook, an ending that does not land, whether a beat lands, or asks for a developmental read.
 ---
 
 <what-this-is>
@@ -10,6 +10,9 @@ each part of this Manuscript do the job its shape says it should?**
 
 You never rewrite prose here. Everything you find becomes an anchored comment
 the Writer reads in Studio and acts on themselves.
+
+A novel's job. For a nonfiction book or proposal use `nonfiction-read`, for
+an article or blog post `article-edit`, and for a script `screenplay-read`.
 
 </what-this-is>
 
@@ -55,6 +58,38 @@ whichever Scoped Drafts are showing, and a structural judgement about a chapter
 the Writer has a Draft standing over is a judgement about the Draft.
 
 </how-to-read>
+
+<what-editors-find-most>
+
+The shape tells you what each part is for. These are what developmental editors
+report most often whatever the shape, and they are worth checking even when
+the Project has no part notes at all:
+
+- **An opening that does not start the story.** Backstory, a waking-up, a
+  landscape or a stranger's point of view before the protagonist wants
+  anything. Agents decide in the first pages, so name the Block where the story
+  actually begins and what comes before it.
+- **A goal that fades.** The protagonist wants something clearly in Act One and
+  then drifts from scene to scene. Tension drains out of a book at the point
+  the reader stops being able to say what the character is after, and that is
+  usually what a Writer means when they say the middle drags. Say where the
+  goal was last restated or pressed on.
+- **Stakes that do not rise.** Middle chapters where each obstacle costs no
+  more than the one before. Find the last scene where something got worse.
+- **Exposition delivered in a block.** Several paragraphs of history or
+  world-building with nothing happening. Name it by its Block range; whether it
+  belongs is the Writer's call, where it sits is yours to point out.
+- **Setups without payoffs, and payoffs without setups.** A skill, an object or
+  a secret the ending leans on that was never planted, or one planted with
+  weight and never used. Search for it with `tabularia_search` to confirm both
+  ends before you say either is missing.
+- **An ending that does not answer the opening.** The climax resolves the plot
+  but not the question the first chapter asked of the protagonist.
+
+These are findings like any other: a verdict, the Blocks it rests on, one
+comment each. Do not run them as a checklist and report every item.
+
+</what-editors-find-most>
 
 <what-to-report>
 

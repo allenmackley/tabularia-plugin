@@ -1,9 +1,13 @@
 {
   "name": "tabularia",
   "displayName": "Tabularia",
-  "version": "1.1.0",
-  "description": "Work on a Tabularia Manuscript with Claude: structural and prose reads, continuity checks, line edits, and story-thread Drafts the Writer merges a difference at a time.",
-  "author": { "name": "Mackley Studios", "url": "https://tabularia.app" },
+  "version": "1.4.0",
+  "description": "Read and revise novels, nonfiction, articles, and screenplays in Tabularia with Claude: developmental reads, continuity checks, line edits, synopses, and script coverage, with changes in Drafts you merge a difference at a time.",
+  "author": {
+    "name": "Mackley Studios",
+    "url": "https://tabularia.app"
+  },
   "homepage": "https://tabularia.app/guide/ai-assistants",
-  "license": "SEE LICENSE IN LICENSE"
+  "license": "SEE LICENSE IN LICENSE",
+  "privacyPolicyUrl": "https://tabularia.app/privacy"
 }

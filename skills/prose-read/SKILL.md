@@ -1,6 +1,6 @@
 ---
 name: prose-read
-description: Read a Tabularia chapter's prose at the sentence level — rhythm, repetition, adverbs, dialogue balance, readability — from counts Tabularia measures rather than numbers you estimate. Use when the Writer asks how their prose reads, whether it is repetitive, whether the sentences are samey, whether there is too much dialogue or description, or asks for a style or readability check.
+description: Read a Tabularia chapter's prose at the sentence level — rhythm, repetition, adverbs, dialogue balance, readability — from counts Tabularia measures rather than numbers you estimate. Use when the Writer asks how their prose reads, whether it is repetitive, whether the sentences are samey, whether there is too much dialogue or description, whether the point of view slips, whether the characters sound alike, or asks for a style or readability check.
 ---
 
 <what-this-is>
@@ -12,6 +12,11 @@ themselves, the content words used most, adverbs per thousand words, how much
 of the passage is spoken aloud, and the two Flesch readability figures. You read
 those counts and say which of them matters in **this** chapter, for **this**
 Writer.
+
+The counts work for any prose: a novel, a nonfiction book, an article. Read
+them against the form. Dialogue ratio means little in an essay, and a
+readability grade matters more in an article read on a phone than in a novel.
+A screenplay is not prose; use `screenplay-read`.
 
 </what-this-is>
 
@@ -56,7 +61,7 @@ Writer's question, not to your report.
 
 1. `tabularia_list_scopes`, then `tabularia_prose_metrics` with `scope: "chapter"`
    or `"scene"`. A whole-Manuscript read averages away the thing you are looking
-   for: a saggy chapter disappears into eighty that are fine.
+   for: one slow chapter disappears into eighty that are fine.
 2. Run it again on a chapter the Writer is happy with. **A number means nothing
    on its own.** Fourteen adverbs per thousand words is neither good nor bad; it
    is only interesting if their other chapters run at five.
@@ -89,6 +94,31 @@ Check `tabularia_list_drafts` first — the counts measure what is showing.
   else, and never present a grade as a target.
 
 </what-the-numbers-are-worth>
+
+<what-the-counts-do-not-see>
+
+Editors name a handful of problems more often than any other, and none of them
+is a count. Read for them when the Writer asks how a chapter reads, and raise
+one only when it is plainly there:
+
+- **Point of view that slips.** In a scene held in one character's head, a
+  sentence that knows what someone else is thinking or feeling. Ask of each
+  paragraph whose head it is in. A change of viewpoint at a scene break is a
+  choice; one in the middle of a paragraph is the slip. Omniscient narration
+  is not head-hopping, so read a few pages before deciding which this book is.
+- **Characters who all sound alike.** Cover the tags and see whether you can
+  tell who is speaking. Point to two characters whose lines could be swapped.
+- **Dialogue with nothing around it.** A page of lines with no action, setting
+  or thought between them, where the reader loses who is where.
+- **Characters naming each other.** People in conversation rarely say each
+  other's names; a scene where every third line does reads as stiff.
+- **Exposition in the dialogue.** One character telling another what they both
+  already know, for the reader's benefit.
+
+Cite the Blocks for each, like every other finding. Two of these in a read is
+plenty.
+
+</what-the-counts-do-not-see>
 
 <when-the-writer-asks-whether-it-reads-as-ai>
 

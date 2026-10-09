@@ -78,7 +78,13 @@ Worth changing:
   paragraph, four sentences opening the same way.
 - Filter words that hold the reader at arm's length: _she saw that_, _he felt_,
   _it seemed_.
-- A dialogue tag doing work the dialogue already does.
+- A dialogue tag doing work the dialogue already does, and "she thought" after
+  a thought already set in italics.
+- A character's name in dialogue where real speakers would not use it.
+- A word misused for its sound-alike: _reign_ for _rein_, _peak_ for _peek_,
+  _loose_ for _lose_.
+- A name spelled two ways. Search for the other spelling before changing one;
+  the Sheet says which is right.
 - Actual errors: grammar, a mangled idiom, a dropped word.
 - An inventory strung onto commas — four or more parallel items in one sentence,
   where the reader cannot hold them apart. Offer the version that breaks them
@@ -97,6 +103,10 @@ Not worth changing, and actively unwelcome:
   standardize.
 - Anything inside dialogue that makes a character sound more articulate than
   the Writer wrote them.
+
+A sentence that slips out of the viewpoint character's head is worth flagging,
+not fixing: which head the scene belongs in is the Writer's decision, so leave a
+comment saying whose thought it reveals.
 
 When in doubt about whether something is a mistake or a choice, leave a comment
 with `tabularia_add_comment` instead of a change. A question costs the Writer

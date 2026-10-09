@@ -12,6 +12,10 @@ ago and have not opened since.
 So the ordinary check does not read the book front to back looking for
 problems. It finds the facts, then checks each one everywhere it appears.
 
+In nonfiction the facts are different and the job is the same: a person's
+name, title or dates given two ways, a figure quoted differently in two
+chapters, an event placed in two different years. Build the list from those.
+
 </what-this-is>
 
 <two-depths>
@@ -84,6 +88,18 @@ Build a list of checkable facts first, then search each one:
   the door that was locked.
 - **Relationships and what people know** — who has met whom, who knows the
   secret, who was in the room.
+- **Where everyone is** — a character in two places on the same day, or in a
+  scene after they left town or died.
+- **Days and weather** — a named weekday that cannot follow the last one, a
+  storm in one scene and a clear sky in another on the same afternoon.
+- **The past as recalled** — a character remembering two earlier events in a
+  different order, or differently, from how the book told them.
+- **Spelling** — a name spelled two ways. Search the variants you can think of,
+  not just the Sheet's spelling.
+
+Copy editors find chronology the most common slip, and it is as frequent in a
+simple timeline as a complicated one. Check ages against the dates the past is
+set at, not just against each other.
 
 When a Writer names a specific worry, start there and widen only if it is clean.
 
