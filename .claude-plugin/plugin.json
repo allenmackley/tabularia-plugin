@@ -1,7 +1,7 @@
 {
   "name": "tabularia",
   "displayName": "Tabularia",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Work on a Tabularia Manuscript with Claude: structural and prose reads, continuity checks, line edits, and story-thread Drafts the Writer merges a difference at a time.",
   "author": { "name": "Mackley Studios", "url": "https://tabularia.app" },
   "homepage": "https://tabularia.app/guide/ai-assistants",

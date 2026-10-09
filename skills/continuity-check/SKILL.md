@@ -1,6 +1,6 @@
 ---
 name: continuity-check
-description: Find contradictions across a Tabularia Manuscript — a character's eye color that changes, a wound that heals too fast, a date that does not survive the next chapter. Use when the Writer asks about continuity, consistency, plot holes, timeline problems, whether the book still matches their character Sheets, or whether they have contradicted themselves.
+description: Find contradictions across a Tabularia Manuscript — a character's eye color that changes, a wound that heals too fast, a date that does not survive the next chapter. Use when the Writer asks about continuity, consistency, plot holes, timeline problems, whether the book still matches their character Sheets, or whether they have contradicted themselves. Asked for a thorough, full or complete check, or one before submission, read the whole book as well.
 ---
 
 <what-this-is>
@@ -9,10 +9,29 @@ Continuity work is search, not reading. The contradiction is almost never in the
 passage the Writer is looking at — it is in the chapter they wrote four months
 ago and have not opened since.
 
-So do not read the book front to back looking for problems. Find the facts, then
-check each one everywhere it appears.
+So the ordinary check does not read the book front to back looking for
+problems. It finds the facts, then checks each one everywhere it appears.
 
 </what-this-is>
+
+<two-depths>
+
+**Quick** is the default, and it is everything below up to the thorough check:
+start from what the Project tracks, then search. It is fast and it is exact
+about what it covered, but it can only check a fact somebody thought to search
+for. A door locked in chapter three and walked through in chapter forty, with
+no Sheet or Timeline mentioning the door, never comes up.
+
+**Thorough** reads the whole Manuscript in order as well, and catches the facts
+nobody listed. Run it when the Writer asks for a thorough, full or complete
+check, or says the book is going to an editor, agent or printer. Before
+starting, tell them it reads every chapter and on a novel takes a long while
+and a good deal of their usage, and go ahead only once they have said yes.
+
+When you finish a quick check, say in one line what it cannot catch and that a
+thorough check would, so the Writer can choose it knowingly.
+
+</two-depths>
 
 <start-from-what-the-project-already-tracks>
 
@@ -70,6 +89,34 @@ When a Writer names a specific worry, start there and widen only if it is clean.
 
 </then-search>
 
+<the-thorough-check>
+
+Do the quick check first. Its Sheets, Timelines and search results are the
+start of the ledger below, and a contradiction it already found does not need
+finding twice.
+
+Then read with `tabularia_read_window`, 120 Blocks at a time from Block 0,
+until it reports no more Blocks. Do not use `tabularia_read_manuscript` for
+this: a novel in one answer is more than you can hold and check at once, and
+the window's Block indexes are what each finding cites.
+
+As you read, keep a ledger: every fact the prose establishes, each with the
+Block index where it was established. The kinds of fact are the ones the search
+list above names, plus anything the story hangs on that no Sheet records.
+Check each new statement against the ledger before adding it. When one
+disagrees, search for the fact with `tabularia_search` before reporting it: a
+third passage often settles which of the two is the slip, or shows the change
+was deliberate.
+
+Keep the ledger to facts, not summary. A ledger that retells the plot fills up
+by the middle of the book and stops being checkable.
+
+Report as the quick check does, and add how far you read: from Block 0 to the
+last Block, or, if you stopped, where and why. A thorough check that quietly
+read half the book is worse than a quick one, because the Writer believes it.
+
+</the-thorough-check>
+
 <what-counts-as-a-finding>
 
 A finding needs **two passages that cannot both be true**, and you must cite
@@ -124,7 +171,7 @@ question far better than anything you could write in the chat. Reuse a Timeline
 that already carries the title rather than making a second.
 
 Report the sweep in the chat as well: what you searched for, how many matches
-each term had, and what came back clean. A Writer needs to know the check was
+each term had, what came back clean, and which depth this was. A Writer needs to know the check was
 thorough, and "no contradictions found" means nothing without the list of what
 was actually checked.
 
