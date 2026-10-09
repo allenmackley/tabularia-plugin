@@ -20,7 +20,7 @@ stay the Writer's, and this connector deliberately offers no tool for them.
 Four reads, and they are all you need:
 
 1. `tabularia_list_review_changes` — the redlined insertions and deletions
-   still waiting to be merged. It answers those by default; pass `status` to
+   still waiting to be merged. It answers those by default; set `status` to
    see the accepted or rejected ones, which is a different question and usually
    not the one being asked.
 2. `tabularia_list_comments` — every note: anchored suggestions, the note a
