@@ -1,8 +1,8 @@
 {
   "name": "tabularia",
   "displayName": "Tabularia",
-  "version": "1.5.0",
-  "description": "Read and revise novels, nonfiction, articles, and screenplays in Tabularia with Claude: developmental reads, continuity checks, line edits, synopses, and script coverage, with changes in drafts you merge a difference at a time.",
+  "version": "1.5.1",
+  "description": "Read and revise novels, nonfiction, articles, and screenplays in Tabularia with Claude: developmental reads, continuity checks, line edits, synopses, and script coverage, with changes in drafts you review and merge as you choose.",
   "author": {
     "name": "Mackley Studios",
     "url": "https://tabularia.app"
