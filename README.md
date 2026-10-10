@@ -22,7 +22,7 @@ Install the plugin, then sign in to the Tabularia connector from the plugin's **
 | `article-edit`       | "Improve this blog post." "Is my headline working?"                     |
 | `screenplay-read`    | "Give me coverage." "Is my script formatted right?"                     |
 
-Claude never changes your writing without asking. Its changes land in a draft you read beside the original and merge all at once, one change at a time, or not at all, unless you turn on **Direct edits** in Tabularia.
+Claude works in a draft. Unless you name one, its changes land in a draft of its own that you read beside the original and merge all at once, one change at a time, or not at all. Ask it to change your text itself and it will, after Tabularia takes a Snapshot; Claude's own tool permissions decide whether it asks you before each change.
 
 ## Data
 

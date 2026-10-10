@@ -8,7 +8,8 @@ description: Build a Timeline or select filtered Outline rows, then revise the p
 Collect the passages that belong to one story thread, capture them in a Draft,
 and write alternatives there. The Timeline or Outline selection says _where_;
 the Writer decides which revisions, if any, to merge. Never write the Base
-Draft for this job, even when Direct edits are enabled.
+Draft for this job, even though the connector would let you: the point is
+alternatives the Writer compares.
 
 </the-job>
 

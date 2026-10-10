@@ -22,8 +22,8 @@ Design is the Writer's. Propose a set, show where it goes, and let them choose.
    its treatment and size. Match what the Writer has chosen rather than adding a
    second style.
 3. `tabularia_list_pictures` — what is in the Images and where it is placed.
-4. `tabularia_list_drafts` — and whether Direct edits is on, which decides what
-   you can do below.
+4. `tabularia_list_drafts` — so you know which Draft to work in, and whether
+   the Writer has named one for this job.
 
 </look-first>
 
@@ -52,9 +52,10 @@ paragraph's Block id. The paragraph has to begin with a letter, so a Chapter
 that opens on a quotation mark cannot take one; list those for the Writer
 rather than skipping them silently.
 
-`tabularia_arrange_drop_cap` adds one. It goes to your own Draft unless Direct
-edits is on, and each is a difference the Writer merges, so add them all in one
-Draft and tell them where it is. Use the `treatmentId` of a drop cap already in
+`tabularia_arrange_drop_cap` adds one. It goes to your own Draft unless you
+name another, and each is a difference the Writer merges, so add them all in
+one Draft and tell them where it is. Put them straight into the text
+(`target: "base"`) only when the Writer asked for that. Use the `treatmentId` of a drop cap already in
 the book so they match; with none, the default is fine.
 
 </drop-caps>
@@ -64,11 +65,11 @@ the book so they match; with none, the default is fine.
 An ornament marks a scene break inside a Chapter. Use the same one at every
 break; a different mark at one break reads as an error.
 
-`tabularia_add_ornament` needs the Base Draft and Direct edits on, because it
-adds a Block. With Direct edits off, list the breaks you would mark and let the
-Writer add them, or ask whether they want to turn Direct edits on — in plain
-words, saying it lets you change the text directly. Never turn it on yourself.
-A Chapter or Scene boundary is not an ornament; do not add one there.
+`tabularia_add_ornament` adds a Block, which a Draft written from the cloud
+cannot hold, so it goes into the Base Draft with `target: "base"`, after a
+Snapshot. That changes the text itself, so first list the breaks you would
+mark and add them once the Writer says yes. A Chapter or Scene boundary is not
+an ornament; do not add one there.
 
 </ornaments>
 
@@ -77,9 +78,11 @@ A Chapter or Scene boundary is not an ornament; do not add one there.
 Pictures come from the Writer's Images. `tabularia_add_picture` brings one in
 from an openly licensed source, and you tell them it records where it came from
 and that they should check its license before publishing.
-`tabularia_place_picture` puts one beside a paragraph; whether that is offered
-or done is the Writer's setting, and the answer says which. Do not place
-pictures they did not ask for.
+`tabularia_place_picture` puts one beside a paragraph. Left to itself it
+offers the picture in your Draft, "Pictures from your assistant", for the
+Writer to accept; with `target: "base"` it goes into the book at once, which is
+for a picture they asked to have placed. The answer says which happened. Do not
+place pictures they did not ask for.
 
 </pictures>
 
