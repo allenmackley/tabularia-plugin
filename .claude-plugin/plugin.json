@@ -1,13 +1,28 @@
 {
   "name": "tabularia",
   "displayName": "Tabularia",
-  "version": "1.4.1",
-  "description": "Read and revise novels, nonfiction, articles, and screenplays in Tabularia with Claude: developmental reads, continuity checks, line edits, synopses, and script coverage, with changes in Drafts you merge a difference at a time.",
+  "version": "1.5.0",
+  "description": "Read and revise novels, nonfiction, articles, and screenplays in Tabularia with Claude: developmental reads, continuity checks, line edits, synopses, and script coverage, with changes in drafts you merge a difference at a time.",
   "author": {
     "name": "Mackley Studios",
     "url": "https://tabularia.app"
   },
-  "homepage": "https://tabularia.app/guide/ai-assistants",
+  "homepage": "https://tabularia.app",
   "license": "SEE LICENSE IN LICENSE",
-  "privacyPolicyUrl": "https://tabularia.app/privacy"
+  "privacyPolicyUrl": "https://tabularia.app/privacy",
+  "repository": "https://github.com/allenmackley/tabularia-plugin",
+  "keywords": [
+    "writing",
+    "editing",
+    "novel",
+    "manuscript",
+    "screenplay",
+    "nonfiction",
+    "fiction",
+    "continuity",
+    "proofreading"
+  ],
+  "documentationUrl": "https://tabularia.app/guide/ai-assistants",
+  "supportUrl": "https://tabularia.app/contact",
+  "termsOfServiceUrl": "https://tabularia.app/terms"
 }

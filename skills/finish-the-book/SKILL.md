@@ -33,10 +33,14 @@ The conventional order is title page, copyright page, dedication, then the
 body, then acknowledgements and the author bio. A novel needs the first two;
 the rest only if the Writer has something to put in them.
 
-`tabularia_set_book_matter` turns a page on or off for one Book. It reflows the
-Book, so `tabularia_take_snapshot` first. Turning a page on adds the page; ask
-the Writer for the dedication or bio wording rather than writing it, and never
-invent copyright details such as an ISBN.
+Turning a page on or off reflows the Book, so it is the Writer's switch to
+flip. When `tabularia_set_book_matter` is among your tools, it turns a page on
+or off for one Book: `tabularia_take_snapshot` first. When it is not, which is
+the case over the remote connector, name the Book and the pages to check in
+Project Settings → Book Matter in Studio (for a novel, Title Page and
+Copyright Page), and say that each checked page arrives with sample wording
+to replace. Either way, ask the Writer for the dedication or bio wording
+rather than writing it, and never invent copyright details such as an ISBN.
 
 </matter-pages>
 

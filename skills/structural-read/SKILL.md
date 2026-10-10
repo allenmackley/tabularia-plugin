@@ -128,6 +128,8 @@ One comment per finding. Title it with the part name.
   the Writer's decision, and your job here was to say what the shape is doing.
   Offer; do not act. If they ask, take a Snapshot first, and read the Outline
   back afterwards — a move is answered by the Outline redrawing, not a receipt.
+  Over the remote connector neither tool is offered, so name the change for the
+  Writer to make in Studio's Outline instead.
 - **Do not judge a shape the Writer did not choose.** A literary novel that
   ignores beat placement is not broken. If the structure notes are absent and
   they do not name one, describe the shape the book actually has and let them
