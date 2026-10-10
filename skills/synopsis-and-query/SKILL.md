@@ -18,7 +18,8 @@ script, the logline and synopsis are part of `screenplay-read`.
 
 <read-the-book>
 
-1. `tabularia_project_metadata` for the title, the Books and their Chapters, and
+1. `tabularia_project_metadata` for the title, subtitle, series name, the Books
+   and their Chapters, and the description the Book already carries; and
    `tabularia_statistics` for the word count. Quote that count, not your own.
 2. `tabularia_list_sheets` and `tabularia_list_comments`: the Writer's own notes
    on who matters and what each part is for.
@@ -70,8 +71,13 @@ back a subplot they care about.
 <what-not-to-do>
 
 - Do not hide the ending in a synopsis. Agents ask for it.
+- Do not set the Book's description from your back-cover copy, or change its
+  title or subtitle, unless the Writer asks. When they do,
+  `tabularia_set_book_details` sets the description, subtitle and series name
+  the Book's published files carry; give it only the fields they approved.
 - Do not describe the book with praise — "gripping", "unforgettable". The
   events have to do that.
-- Do not change the Manuscript, or suggest changes to it, as part of this job.
+- Do not change the Manuscript's wording, or suggest changes to it, as part of
+  this job.
 
 </what-not-to-do>

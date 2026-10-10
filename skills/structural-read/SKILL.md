@@ -28,7 +28,8 @@ So do not bring a remembered version of the Fifteen-Beat Sheet or the Hero's Jou
 this. Read what the Project actually says:
 
 1. `tabularia_project_metadata` — how many Books, Acts and Chapters there are,
-   and what they are called.
+   what they are called, and the id that names each Chapter to the Outline
+   tools.
 2. `tabularia_list_anchors` — the Outline: which Anchors are acts, chapters,
    scenes, and where each sits. A page at a time on a novel: read `anchorCount`
    and `hasMore`, and ask again with a later `from` rather than assuming the
@@ -123,13 +124,16 @@ One comment per finding. Title it with the part name.
   none, and asking for one anyway leaves a row in the Writer's History that
   answers no question.
 - **Do not restructure the Outline because you found a problem in it.**
-  `tabularia_create_outline_item` and `tabularia_move_outline_item` exist, and a
-  developmental read is not the moment for them: where an act break belongs is
-  the Writer's decision, and your job here was to say what the shape is doing.
-  Offer; do not act. If they ask, take a Snapshot first, and read the Outline
-  back afterwards — a move is answered by the Outline redrawing, not a receipt.
-  Over the remote connector neither tool is offered, so name the change for the
-  Writer to make in Studio's Outline instead.
+  `tabularia_create_outline_item`, `tabularia_rename_outline_item` and
+  `tabularia_move_outline_item` exist, and a developmental read is not the
+  moment for them: where an act break belongs is the Writer's decision, and
+  your job here was to say what the shape is doing. Offer; do not act. If they
+  ask, make the change they named and read `tabularia_project_metadata` back
+  afterwards to confirm where it landed. From the cloud a Snapshot is kept
+  first; with Tabularia open on their computer, take one with
+  `tabularia_take_snapshot` first. Gathering Chapters into a new Act cannot be
+  done from the cloud, so name that one for the Writer to make in the
+  Outline.
 - **Do not judge a shape the Writer did not choose.** A literary novel that
   ignores beat placement is not broken. If the structure notes are absent and
   they do not name one, describe the shape the book actually has and let them

@@ -1,6 +1,6 @@
 ---
 name: finish-the-book
-description: Give a Tabularia Book a finished look — its Matter pages, scene-break ornaments, drop caps on chapter openings, and pictures. Use when the Writer asks to make the book look finished, professional or printed, to add a title page, copyright page, dedication or author bio, to add drop caps or ornaments, or to place illustrations.
+description: Give a Tabularia Book a finished look — its title, byline and copyright details, its Matter pages, how its chapters open, scene-break ornaments, drop caps and pictures. Use when the Writer asks to make the book look finished, professional or printed, to set the title, subtitle, author, series or ISBN, to add a title page, copyright page, dedication or author bio, to change how chapters open, to add drop caps or ornaments, or to place illustrations.
 ---
 
 <what-this-is>
@@ -16,16 +16,30 @@ Design is the Writer's. Propose a set, show where it goes, and let them choose.
 
 <look-first>
 
-1. `tabularia_project_metadata` — each Book and its Matter settings: which pages
-   it carries now.
-2. `tabularia_list_decorations` — every drop cap and ornament already there, with
+1. `tabularia_project_metadata` — each Book, its details (title, subtitle,
+   byline, description, publication details) and its Matter pages: which it
+   carries now, under `matterPages`.
+2. `tabularia_read_book_settings` — how its Chapters open, its drop cap rule,
+   its color, and its Block Styles.
+3. `tabularia_list_decorations` — every drop cap and ornament already there, with
    its treatment and size. Match what the Writer has chosen rather than adding a
    second style.
-3. `tabularia_list_pictures` — what is in the Images and where it is placed.
-4. `tabularia_list_drafts` — so you know which Draft to work in, and whether
+4. `tabularia_list_pictures` — what is in the Images and where it is placed.
+5. `tabularia_list_drafts` — so you know which Draft to work in, and whether
    the Writer has named one for this job.
 
 </look-first>
+
+<details>
+
+The title page and copyright page print what the Book says about itself.
+`tabularia_set_book_details` sets the title, subtitle, byline, description,
+dedication and the copyright page's details — publisher, edition, year, ISBNs
+— and the series name the whole Manuscript shares. Only the fields you give
+change. Set only what the Writer gave you: never invent an ISBN, a publisher
+or a year, and ask for the dedication wording rather than writing it.
+
+</details>
 
 <matter-pages>
 
@@ -33,21 +47,36 @@ The conventional order is title page, copyright page, dedication, then the
 body, then acknowledgements and the author bio. A novel needs the first two;
 the rest only if the Writer has something to put in them.
 
-Turning a page on or off reflows the Book, so it is the Writer's switch to
-flip. When `tabularia_set_book_matter` is among your tools, it turns a page on
-or off for one Book: `tabularia_take_snapshot` first. When it is not, which is
-the case over the remote connector, name the Book and the pages to check in
-Project Settings → Book Matter in Studio (for a novel, Title Page and
-Copyright Page), and say that each checked page arrives with sample wording
-to replace. Either way, ask the Writer for the dedication or bio wording
-rather than writing it, and never invent copyright details such as an ISBN.
+`tabularia_set_book_matter` turns one page on or off for one Book. It reflows
+the Book, so propose the set first and turn pages on once the Writer agrees.
+From the cloud a Snapshot is kept before the change; with Tabularia open on
+the Writer's computer, take one with `tabularia_take_snapshot` first. Each
+page arrives with sample wording to replace, so tell the Writer which pages
+want their words. A page they have written in keeps its writing when turned
+off, and the answer says so.
 
 </matter-pages>
+
+<chapter-openings>
+
+A printed novel opens every Chapter the same way. `tabularia_set_chapter_opening`
+sets the Book's default — whether a Chapter starts on a new page or a
+right-hand page, its label, number and title lines, whether the running header
+shows on its first page — and the drop cap every opening paragraph takes. Read
+`tabularia_read_book_settings` first, propose one design, and set it once the
+Writer agrees. The type itself is a Block Style: `tabularia_set_block_style`
+changes Chapter Heading, Chapter Number and the rest for the whole Project or
+one Book. These change the Book directly; they are not offered in a Draft.
+
+</chapter-openings>
 
 <drop-caps>
 
 The convention is a drop cap on the first paragraph of each Chapter and nowhere
-else. Read the Chapter openings with `tabularia_read_window` to find each first
+else. The simplest way to get it is the Book's own rule, set with
+`tabularia_set_chapter_opening`, which every Chapter follows. Add one
+paragraph by paragraph only when the Writer wants a few, or wants to review
+each. Read the Chapter openings with `tabularia_read_window` to find each first
 paragraph's Block id. The paragraph has to begin with a letter, so a Chapter
 that opens on a quotation mark cannot take one; list those for the Writer
 rather than skipping them silently.
@@ -90,6 +119,7 @@ place pictures they did not ask for.
 
 Say what you changed or offered, where each change is waiting — which Draft,
 or the text itself — and what you left for the Writer to supply, such as the
-dedication wording.
+dedication wording or an ISBN. Say that History holds a Snapshot from before
+the changes that went straight into the Book.
 
 </afterwards>
